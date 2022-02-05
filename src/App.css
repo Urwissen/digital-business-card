@@ -10,6 +10,7 @@
   color: rgb(241, 241, 241);
   border-radius: 1em;
   background-color: #222831;
+  box-shadow: 6.9px 13.8px 13.8px hsl(0deg 0% 0% / 0.2);
 }
 
 .content-wrapper {
@@ -37,6 +38,7 @@
 .name {
   text-align: center;
   margin: 0.25em;
+  text-shadow: 6.9px 13.8px 13.8px hsl(0deg 0% 0% / 0.2);
 }
 
 .title {
