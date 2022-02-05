@@ -55,6 +55,10 @@ a {
   margin-bottom: 1em;
 }
 
+a:hover {
+  color: rgb(144, 229, 255);
+}
+
 .btn-wrapper {
   display: flex;
   justify-content: space-between;
@@ -71,6 +75,7 @@ button {
   border-radius: .25em;
   box-shadow: 6.9px 13.8px 13.8px hsl(0deg 0% 0% / 0.22);
   transition: 500ms;
+  cursor: pointer;
 }
 
 button:hover {
@@ -112,6 +117,7 @@ button .bi {
   width: 1.5em;
   height: 1.5em;
   transition: 300ms;
+  cursor: pointer;
 }
 
 .footer .bi:hover {
