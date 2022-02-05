@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 325px;
+  width: 350px;
   color: rgb(241, 241, 241);
   border-radius: 1em;
   background-color: #222831;
@@ -53,9 +53,10 @@ a {
 }
 
 button {
+  background-color: white;
   display: flex;
   align-items: center;
-  padding: 0.25em 0.75em;
+  padding: 0.5em 0.75em;
   font-weight: bold;
   font-size: 1.2em;
   border: none;
@@ -64,10 +65,11 @@ button {
 
 .linkedin-btn {
   background-color: #5093E2;
+  color: white;
 }
 
-.btn-icon {
-  margin-right: .5em;
+button .bi {
+  padding-right: .5em;
 }
 
 .description {
