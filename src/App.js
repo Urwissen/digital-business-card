@@ -20,14 +20,14 @@ function App() {
 
   return (
     <div className="container">
-      <img className="profile-picture" src="https://images.unsplash.com/photo-1573495804667-9ec7384f8909?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3088&q=80" alt="A smiling person" />
+      <img className="profile-picture" src="./me.png" alt="A smiling person" />
       <div className='content-wrapper'>
-        <h1 className='name'>Freya Skóholm</h1>
+        <h1 className='name'>Lars Gessner</h1>
         <p className='title'>Fullstack Developer</p>
-        <a href='https://github.com/Urwissen'>freyas.website</a>  
+        <a href='https://github.com/Urwissen'>my website</a>  
         <div className='btn-wrapper'>
-          <button className='mail-btn' onClick={() => alert("Mail")}>{emailLogo} Email</button>
-          <button className="linkedin-btn" onClick={() => alert("linkedIn")}>{linkedInLogo}LinkedIn</button>
+          <button className='mail-btn' onClick={() => window.location= "mailto:rattane-schnaebel-0s@icloud.com"}>{emailLogo} Email</button>
+          <button className="linkedin-btn" onClick={() => window.open("https://www.linkedin.com/in/lars-gessner-b34674a2", "_blank")}>{linkedInLogo}LinkedIn</button>
         </div>
         <div className='description'>
           <h2 className='description--about'>About</h2>
